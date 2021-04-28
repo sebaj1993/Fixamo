@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A1DB5B4-F3B6-4685-B873-A94E0550D6A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FixamoEntityFrame</RootNamespace>
+    <AssemblyName>FixamoEntityFrame</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\seba_\Documents\publish fixamo\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>22</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A2515754AFD56C8EEBAC237751CDDD8322BC4247</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FixamoEntityFrame_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.5.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>bin\Debug\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>bin\Debug\itextsharp-dll-pdfa\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>bin\Debug\itextsharp-dll-xtra\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.15\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.EntityFramework.8.0.15\lib\net452\MySql.Data.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\CondicionPago.cs" />
+    <Compile Include="Clases\Convertidor.cs" />
+    <Compile Include="Clases\DataHelper.cs" />
+    <Compile Include="Clases\Doctor.cs" />
+    <Compile Include="Clases\LineaPresupuesto.cs" />
+    <Compile Include="Clases\LugarCirugia.cs" />
+    <Compile Include="Clases\Session.cs" />
+    <Compile Include="Clases\Solicitante.cs" />
+    <Compile Include="Clases\Paciente.cs" />
+    <Compile Include="Clases\Parametros.cs" />
+    <Compile Include="Clases\PlazoEntrega.cs" />
+    <Compile Include="Clases\Presupuesto.cs" />
+    <Compile Include="Clases\Usuario.cs" />
+    <Compile Include="FixamoContext.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdministracionCondicionesDePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministracionCondicionesDePago.Designer.cs">
+      <DependentUpon>AdministracionCondicionesDePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdministracionPlazosDeEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministracionPlazosDeEntrega.Designer.cs">
+      <DependentUpon>AdministracionPlazosDeEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdministracionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministracionUsuarios.Designer.cs">
+      <DependentUpon>AdministracionUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdministrarProximoNroPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministrarProximoNroPresupuesto.Designer.cs">
+      <DependentUpon>AdministrarProximoNroPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMCondicionesDePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMCondicionesDePago.Designer.cs">
+      <DependentUpon>AMCondicionesDePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMDoctor.Designer.cs">
+      <DependentUpon>AMDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMLineaPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMLineaPresupuesto.Designer.cs">
+      <DependentUpon>AMLineaPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMLugarCirugia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMLugarCirugia.Designer.cs">
+      <DependentUpon>AMLugarCirugia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMSolicitante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMSolicitante.Designer.cs">
+      <DependentUpon>AMSolicitante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMPaciente.Designer.cs">
+      <DependentUpon>AMPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMPlazosDeEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMPlazosDeEntrega.Designer.cs">
+      <DependentUpon>AMPlazosDeEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AMUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AMUsuarios.Designer.cs">
+      <DependentUpon>AMUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CrearPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CrearPresupuesto.Designer.cs">
+      <DependentUpon>CrearPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Doctores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Doctores.Designer.cs">
+      <DependentUpon>Doctores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LugaresCirugias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LugaresCirugias.Designer.cs">
+      <DependentUpon>LugaresCirugias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Solicitantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Solicitantes.Designer.cs">
+      <DependentUpon>Solicitantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pacientes.Designer.cs">
+      <DependentUpon>Pacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VerPresupuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VerPresupuestos.Designer.cs">
+      <DependentUpon>VerPresupuestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091923371_Initial.cs" />
+    <Compile Include="Migrations\201904091923371_Initial.Designer.cs">
+      <DependentUpon>201904091923371_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091927392_addHabilitado.cs" />
+    <Compile Include="Migrations\201904091927392_addHabilitado.Designer.cs">
+      <DependentUpon>201904091927392_addHabilitado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ObservableListSource.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdministracionCondicionesDePago.resx">
+      <DependentUpon>AdministracionCondicionesDePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdministracionPlazosDeEntrega.resx">
+      <DependentUpon>AdministracionPlazosDeEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdministracionUsuarios.resx">
+      <DependentUpon>AdministracionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdministrarProximoNroPresupuesto.resx">
+      <DependentUpon>AdministrarProximoNroPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMCondicionesDePago.resx">
+      <DependentUpon>AMCondicionesDePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMDoctor.resx">
+      <DependentUpon>AMDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMLineaPresupuesto.resx">
+      <DependentUpon>AMLineaPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMLugarCirugia.resx">
+      <DependentUpon>AMLugarCirugia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMSolicitante.resx">
+      <DependentUpon>AMSolicitante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMPaciente.resx">
+      <DependentUpon>AMPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMPlazosDeEntrega.resx">
+      <DependentUpon>AMPlazosDeEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AMUsuarios.resx">
+      <DependentUpon>AMUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CrearPresupuesto.resx">
+      <DependentUpon>CrearPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Doctores.resx">
+      <DependentUpon>Doctores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LugaresCirugias.resx">
+      <DependentUpon>LugaresCirugias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Solicitantes.resx">
+      <DependentUpon>Solicitantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pacientes.resx">
+      <DependentUpon>Pacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VerPresupuestos.resx">
+      <DependentUpon>VerPresupuestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091923371_Initial.resx">
+      <DependentUpon>201904091923371_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091927392_addHabilitado.resx">
+      <DependentUpon>201904091927392_addHabilitado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="FixamoEntityFrame_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\FixamoEntityFrame.Clases.Paciente.datasource" />
+    <None Include="Properties\DataSources\FixamoEntityFrame.Clases.Presupuesto.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logofixamo.png" />
+    <Content Include="logoPresupuesto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

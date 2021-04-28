@@ -1,0 +1,80 @@
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\FixamoEntityFrame.exe.config
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\FixamoEntityFrame.exe.manifest
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\FixamoEntityFrame.application
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\FixamoEntityFrame.exe
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\FixamoEntityFrame.pdb
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\EntityFramework.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\Google.Protobuf.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\itextsharp.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\itextsharp.pdfa.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\itextsharp.xtra.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\MySql.Data.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\EntityFramework.xml
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\Google.Protobuf.xml
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\itextsharp.xml
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\MySql.Data.xml
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Form1.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministracionCondicionesDePago.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministracionPlazosDeEntrega.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministracionUsuarios.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministrarProximoNroPresupuesto.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMCondicionesDePago.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMDoctor.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMLineaPresupuesto.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMLugarCirugia.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMSolicitantes.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMPaciente.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMPlazosDeEntrega.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMUsuarios.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Configuracion.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.CrearPresupuesto.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Doctores.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.LugaresCirugias.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Solicitantes.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Pacientes.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.VerPresupuestos.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Login.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Migrations.Initial.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Migrations.addHabilitado.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Properties.Resources.resources
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.csproj.GenerateResource.cache
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.csproj.CoreCompileInputs.cache
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.exe.manifest
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.application
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.csproj.CopyComplete
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.exe
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.pdb
+C:\Users\seba_\Documents\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.csprojAssemblyReference.cache
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\bin\Debug\FixamoEntityFrame.exe.config
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.exe
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.pdb
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.csprojResolveAssemblyReference.cache
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Form1.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministracionCondicionesDePago.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministracionPlazosDeEntrega.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministracionUsuarios.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AdministrarProximoNroPresupuesto.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMCondicionesDePago.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMDoctor.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMLineaPresupuesto.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMLugarCirugia.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMSolicitantes.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMPaciente.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMPlazosDeEntrega.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.AMUsuarios.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Configuracion.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.CrearPresupuesto.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Doctores.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.LugaresCirugias.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Solicitantes.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.Pacientes.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Forms.VerPresupuestos.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Login.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Migrations.Initial.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Migrations.addHabilitado.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.Properties.Resources.resources
+E:\backup rigido\fixamo\FixamoEntityFramework\FixamoEntityFrame\FixamoEntityFrame\obj\Debug\FixamoEntityFrame.csproj.GenerateResource.Cache
